@@ -30,10 +30,15 @@ export default function Search() {
   function updateCity(event) {
     setCity(event.target.value);
   }
+
   let form = (
     <form onSubmit={handleSubmit}>
-      <form class="row g-3" id="search-form" className="search-section">
-        <div class="col-md-6">
+      <form
+        class="row g-2 justify-content-center"
+        id="search-form"
+        className="search-section"
+      >
+        <div class="col-auto">
           <input
             type="search"
             class="form-control"
