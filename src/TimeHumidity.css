@@ -1,0 +1,12 @@
+.wind-condition-time {
+  position: relative;
+  top: -120px;
+  text-align: right;
+}
+.wind-condition-time h3 {
+  font-size: 42px;
+}
+
+.condition {
+  font-size: 17px;
+}
