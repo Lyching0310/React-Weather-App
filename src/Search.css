@@ -1,0 +1,26 @@
+.search-section {
+  margin-bottom: 20px;
+  margin-top: -85px;
+  display: block;
+  text-align: center;
+}
+
+#discover-button {
+  background: #9dd9f3;
+  border: 2px solid #0d2c37;
+  color: #0b0e28;
+  transition: all 200ms ease-in-out;
+}
+
+#now-button {
+  background: #c8ed8f;
+  border: 2px solid #0d2c37;
+  color: #0b0e28;
+  transition: all 200ms ease-in-out;
+}
+
+#discover-button:hover,
+#now-button:hover {
+  background: white;
+  color: #0b0e28;
+}

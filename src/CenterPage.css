@@ -1,0 +1,64 @@
+#weatherType,
+#temperature {
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -90px;
+}
+#weatherType {
+  font-size: 30px;
+  margin-bottom: 82px;
+  text-transform: capitalize;
+}
+#temperature {
+  font-size: 55px;
+  margin-bottom: 90px;
+}
+
+.degrees {
+  position: relative;
+  bottom: 20px;
+  font-size: 25px;
+}
+
+#celsius {
+  text-decoration: none;
+  color: black;
+}
+
+#icon {
+  display: block;
+  font-size: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -120px;
+  margin-bottom: 70px;
+}
+
+#weatherType,
+#temperature {
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -90px;
+}
+#weatherType {
+  font-size: 30px;
+  margin-bottom: 82px;
+  text-transform: capitalize;
+}
+#temperature {
+  font-size: 60px;
+  margin-bottom: 90px;
+}
+
+.degrees {
+  position: relative;
+  bottom: 20px;
+  font-size: 25px;
+}
+
+#celsius {
+  text-decoration: none;
+  color: white;
+}
