@@ -8,3 +8,10 @@
   margin-top: 40px;
   background: linear-gradient(#1c4954, #0d2c37);
 }
+
+#signature {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Palanquin", sans-serif;
+}
