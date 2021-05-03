@@ -1,10 +1,10 @@
 .weather-container {
-  border: 1px ridge #d59387;
+  border: 2px ridge #0d2c37;
   border-radius: 9px;
   padding: 20px 20px 0 20px;
   max-width: 580px;
-  color: whitesmoke;
+  color: white;
   margin: 0 auto;
   margin-top: 40px;
-  background: linear-gradient(#855b5a, #ab7474);
+  background: linear-gradient(#1c4954, #0d2c37);
 }
