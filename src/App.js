@@ -17,7 +17,7 @@ function App() {
         <Forecast />
       </div>
       <br />
-      <span id="Signature">
+      <span className="signature">
         Created by Alyssa Reyes {""}
         <a
           href="https://github.com/Lyching0310/React-Weather-App"

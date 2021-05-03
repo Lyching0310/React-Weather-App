@@ -9,8 +9,7 @@
   background: linear-gradient(#1c4954, #0d2c37);
 }
 
-#signature {
-  display: block;
-  text-align: center;
+.signature {
+  text-align: justify;
   font-family: "Palanquin", sans-serif;
 }
