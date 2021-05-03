@@ -1,5 +1,5 @@
 import "./App.css";
-import Weather from "./Weather";
+
 import CenterPage from "./CenterPage";
 import CityDate from "./CityDate";
 import Search from "./Search";
@@ -13,9 +13,8 @@ function App() {
         <CityDate />
         <TimeHumidity />
         <CenterPage />
-        <Search />
+        <Search city="New York" />
         <Forecast />
-        <Weather />
       </div>
     </div>
   );
