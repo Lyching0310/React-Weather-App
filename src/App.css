@@ -1,15 +1,29 @@
-.weather-container {
-  border: 2px ridge #0d2c37;
-  border-radius: 9px;
-  padding: 20px 20px 0 20px;
-  max-width: 580px;
-  color: white;
-  margin: 0 auto;
-  margin-top: 40px;
-  background: linear-gradient(#1c4954, #0d2c37);
+body {
+  background: #f0edea;
 }
 
-.signature {
-  text-align: justify;
+.container {
+  max-width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+  font-family: "Palanquin", sans-serif;
+  text-size-adjust: 100%;
+}
+
+.weather-container {
+  border: 2px ridge #c79cb0;
+  border-radius: 9px;
+  padding: 20px 20px 0 20px;
+  max-width: 700px;
+  color: #323946;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: linear-gradient(#e3c1c2, #d0acae);
+}
+#footer {
+  text-align: center;
+  margin: 0 auto;
+  color: black;
   font-family: "Palanquin", sans-serif;
 }

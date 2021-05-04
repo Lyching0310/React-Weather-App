@@ -17,7 +17,7 @@ function App() {
         <Forecast />
       </div>
       <br />
-      <span className="signature">
+      <div id="footer">
         Created by Alyssa Reyes {""}
         <a
           href="https://github.com/Lyching0310/React-Weather-App"
@@ -36,7 +36,7 @@ function App() {
         >
           Hosted on Netlify
         </a>
-      </span>
+      </div>
     </div>
   );
 }
