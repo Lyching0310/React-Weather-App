@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-import "bootstrap/dist/css/bootstrap.css";
-
 import "./Search.css";
 
 export default function Search(props) {
@@ -37,28 +35,28 @@ export default function Search(props) {
     <form onSubmit={handleSubmit}>
       <div className="search-section">
         <form class="row g-2 justify-content-center" id="search-form">
-          <div class="col-md-6">
+          <div class="col-md-7">
             <input
               type="text"
               class="form-control"
               id="search-bar"
               placeholder="Enter a city..."
-              autocomplete={false}
+              autocomplete="off"
               autoFocus={true}
               onChange={updateCity}
             />
           </div>
-          <div class="col-auto justify-content-center">
+          <div class="col-md-1 justify-content-center">
             <button
               type="submit"
-              class="btn btn-primary mb-3"
+              class="btn btn-primary me-md-3"
               id="discover-button"
             >
               Search
             </button>
           </div>
-          <div class="col-auto justify-content-center">
-            <button type="submit" class="btn btn-success mb-3" id="now-button">
+          <div class="col-md-4 justify-content-center">
+            <button type="submit" class="btn btn-primary" id="now-button">
               Current
             </button>
           </div>

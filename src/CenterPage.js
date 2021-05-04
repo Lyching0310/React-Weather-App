@@ -1,5 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
+
 import "./CenterPage.css";
 
 export default function CenterPage() {
