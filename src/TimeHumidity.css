@@ -1,7 +1,7 @@
 .wind-condition-time {
   position: relative;
-  top: -120px;
   text-align: right;
+  top: -120px;
   font-weight: bold;
 }
 .wind-condition-time h3 {
